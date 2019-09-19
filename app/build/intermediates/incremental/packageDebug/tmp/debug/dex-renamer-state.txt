@@ -1,4 +1,0 @@
-#Wed Sep 18 17:46:55 WIB 2019
-base.0=/home/popy/Documents/gka/workspace_gka/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

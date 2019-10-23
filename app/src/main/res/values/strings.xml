@@ -3,6 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+<<<<<<< HEAD
     <string name="title_profile">Profile</string>
     <string name="title_namadepan">Nama Depan</string>
     <string name="title_namabelakang">Nama Belakang</string>
@@ -17,4 +18,23 @@
     <string name="title_verifikasi">Kode verifikasi</string>
     <string name="title_namauser">Nama User</string>
     <string name="title_liatkodeqr">Lihat Kode Qr</string>
+=======
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+>>>>>>> 50e503a6d3a9cb0f468fb1fdc82b82fe71eacff9
 </resources>

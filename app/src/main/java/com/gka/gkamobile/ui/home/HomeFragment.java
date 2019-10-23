@@ -17,7 +17,10 @@ import com.gka.gkamobile.R;
 import com.gka.gkamobile.adapter.FragmentTabAdapter;
 import com.gka.gkamobile.ui.dashboard.DashboardFragment;
 import com.gka.gkamobile.ui.notifications.NotificationsFragment;
+<<<<<<< HEAD
+=======
 import com.google.android.material.tabs.TabLayout;
+>>>>>>> 50e503a6d3a9cb0f468fb1fdc82b82fe71eacff9
 
 public class HomeFragment extends Fragment {
 
@@ -58,6 +61,20 @@ public class HomeFragment extends Fragment {
 
     }
 
+
+    // Add Fragments to Tabs
+    private void setupViewPager(ViewPager viewPager) {
+
+
+        FragmentTabAdapter adapter = new FragmentTabAdapter(getChildFragmentManager());
+        adapter.addFragment(new DashboardFragment(), "Dashboard");
+        adapter.addFragment(new NotificationsFragment(), "Notif");
+
+        viewPager.setAdapter(adapter);
+
+
+
+    }
 
     // Add Fragments to Tabs
     private void setupViewPager(ViewPager viewPager) {

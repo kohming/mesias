@@ -3,6 +3,22 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+<<<<<<< HEAD
+    <string name="title_profile">Profile</string>
+    <string name="title_namadepan">Nama Depan</string>
+    <string name="title_namabelakang">Nama Belakang</string>
+    <string name="title_jeniskelamin">Jenis Kelamin</string>
+    <string name="title_TTL">Tempat, dan Tanggal Lahir</string>
+    <string name="title_alamat">Alamat</string>
+    <string name="title_goldarah">Golongan Darah</string>
+    <string name="title_nomortelp">Masukan Nomor Telepon</string>
+    <string name="title_email">Masukan Email</string>
+    <string name="title_katasandi">Kata Sandi</string>
+    <string name="title_konkatasandi">Konfirmasi Kata Sandi</string>
+    <string name="title_verifikasi">Kode verifikasi</string>
+    <string name="title_namauser">Nama User</string>
+    <string name="title_liatkodeqr">Lihat Kode Qr</string>
+=======
 
     <string name="register">REGISTER</string>
     <string name="login_email_hint">Email</string>
@@ -20,4 +36,5 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+>>>>>>> 50e503a6d3a9cb0f468fb1fdc82b82fe71eacff9
 </resources>

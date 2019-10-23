@@ -4,4 +4,17 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_profile">Profile</string>
+    <string name="title_namadepan">Nama Depan</string>
+    <string name="title_namabelakang">Nama Belakang</string>
+    <string name="title_jeniskelamin">Jenis Kelamin</string>
+    <string name="title_TTL">Tempat, dan Tanggal Lahir</string>
+    <string name="title_alamat">Alamat</string>
+    <string name="title_goldarah">Golongan Darah</string>
+    <string name="title_nomortelp">Masukan Nomor Telepon</string>
+    <string name="title_email">Masukan Email</string>
+    <string name="title_katasandi">Kata Sandi</string>
+    <string name="title_konkatasandi">Konfirmasi Kata Sandi</string>
+    <string name="title_verifikasi">Kode verifikasi</string>
+    <string name="title_namauser">Nama User</string>
+    <string name="title_liatkodeqr">Lihat Kode Qr</string>
 </resources>

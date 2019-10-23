@@ -38,7 +38,11 @@
         android:layout_marginStart="11dp"
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="89dp"
-        android:text="Masuk" />
+        android:text="Masuk"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="13dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -62,7 +66,11 @@
         android:layout_marginBottom="173dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Masukan E-Mail" />
+        android:text="Masukan E-Mail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="50dp" />
 
     <EditText
         android:id="@+id/editText6"
@@ -76,7 +84,11 @@
         android:layout_marginBottom="102dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Masukan Password" />
+        android:text="Masukan Password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginRight="43dp" />
 
 
 </RelativeLayout>

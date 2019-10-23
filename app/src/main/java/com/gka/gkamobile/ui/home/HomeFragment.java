@@ -11,8 +11,12 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.viewpager.widget.ViewPager;
 
 import com.gka.gkamobile.R;
+import com.gka.gkamobile.adapter.FragmentTabAdapter;
+import com.gka.gkamobile.ui.dashboard.DashboardFragment;
+import com.gka.gkamobile.ui.notifications.NotificationsFragment;
 
 public class HomeFragment extends Fragment {
 
@@ -31,5 +35,19 @@ public class HomeFragment extends Fragment {
             }
         });
         return root;
+    }
+
+    // Add Fragments to Tabs
+    private void setupViewPager(ViewPager viewPager) {
+
+
+        FragmentTabAdapter adapter = new FragmentTabAdapter(getChildFragmentManager());
+        adapter.addFragment(new DashboardFragment(), "Dashboard");
+        adapter.addFragment(new NotificationsFragment(), "Notif");
+
+        viewPager.setAdapter(adapter);
+
+
+
     }
 }
